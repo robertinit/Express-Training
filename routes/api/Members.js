@@ -31,7 +31,7 @@ router.post('/', (req, res) => {
     }
     if (!newMember.name || !newMember.email) {
         return res.status(400).json({
-            msg: 'Please incluse a name and email.'
+            msg: 'Please include a name and email.'
         });
     }
 
